@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -7,35 +5,31 @@
 
 html{
     scroll-behavior: smooth;
+    font-size: 16px;
+    font-family: Roboto,sans-serif;
 }
 
-#header{
-    width: 100%;
+.logo{
+    width: 250px;
     height: 50px;
-    text-align: center;
-    background: grey;
-    color: white;
-    line-height: 50px;
-    margin-bottom: 50px;
-    float: left;
-}
+    background: violet;
 
+    color: white;
+    text-align: center;
+    padding: 25px 0 0 0;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
 
 .level_1{
     background-color: lightskyblue;
     color: blueviolet;
     height: 500px;
     width: auto;
-
     text-align: center;
-    font-size: 4em;
-    font-style: bolder;
-    font-family: 'Ubuntu', sans-serif;
+
     cursor: pointer;
     background-attachment: fixed;
-}
-.level_1:hover{
-    color: violet;
 }
 
 .level_2{
@@ -45,14 +39,9 @@ html{
     
     color: blueviolet;
     text-align: center;
-    font-size: 4em;
-    font-style: bolder;
-    font-family: 'Ubuntu', sans-serif;
+
     cursor: pointer;
     background-attachment: fixed;
-}
-.level_2:hover{
-    color: violet;
 }
 
 .level_3{
@@ -62,13 +51,7 @@ html{
     
     color: blueviolet;
     text-align: center;
-    font-size: 4em;
-    font-style: bolder;
-    font-family: 'Ubuntu', sans-serif;
 
     cursor: pointer;
     background-attachment: fixed;
-}
-.level_3:hover{
-    color: violet;
 }
